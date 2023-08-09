@@ -1,7 +1,7 @@
-### Hardware & software
+## Hardware & software
 ![lab_connectivity](lab_connectivity.jpg)
 
-#### EEGL (=EEG Laptop)
+### EEGL (=EEG Laptop)
 *OS (Dualboot)*: Windows 10 Pro (64 bit), Ubuntu 20.04.4 LTS
 
 *Software Win*: LSL, eego LSL App, Brainvision LSL Viewer, ANT SDK (Amplifier), VSCode
@@ -15,7 +15,7 @@
 *Network*
 - Wifi (RecL) or Ethernet
 
-#### RecL (=Recording Laptop)
+### RecL (=Recording Laptop)
 *OS*: Ubuntu 20.04.3 LTS
 
 *Software*: LSL, LSL Viewer, LSL Recorder, VSCode, Miniconda, nomachine, gucview, wifihotspot
@@ -31,7 +31,7 @@
 - PCI ethernet to StimPC
 - Wifi to EEGL via wifi hotspot
 
-#### StimPC (=Stimulus PC)
+### StimPC (=Stimulus PC)
 *OS*: Ubuntu 20.04.3 LTS
 
 *Software*: LSL, PsychoPy, Miniconda, Spyder, Matlab, EyeLink SDK
@@ -46,7 +46,7 @@
 - Ethernet to ETPC
 - (LPT (=parallel port) to amplifier)
 
-#### ETPC (=Eye Tracking PC)
+### ETPC (=Eye Tracking PC)
 *OS*: ET OS, Windows
 
 *Main purposes*: 
@@ -56,7 +56,7 @@
 -Ethernet to StimPC
 -Ethernet to ET (=eye tracker)
 
-#### Further hardware
+### Further hardware
 **Amplifier**: amplification and AD conversion of EEG signal, EEG sample triggers
 
 **Button box (or keyboard)**: manual response by participant during experiment - triggers are sent to StimPC
